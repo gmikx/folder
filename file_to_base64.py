@@ -7,7 +7,7 @@ import numpy as np
 os.getcwd()
 
 # podaj ścieżkę do konwertowanego pliku, najlepiej żeby plik był w tym samym folderze co skrypt
-filename = 'file_to_base64.py'
+filename = 'file_to_base64'
 
 # odczytanie rozszerzenia
 extension_original = ( filename[ filename.rfind("."): ] )
